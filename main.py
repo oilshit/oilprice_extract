@@ -2,6 +2,7 @@
 import json, requests
 import pandas as pd
 import datetime
+import sys
 
 def get_blend_info(blend, period):
     """
@@ -47,10 +48,10 @@ def save_to_csv_data(data):
 
     prices_df = pd.DataFrame(data)
     prices_df.columns = field_name
-    prices_df.to_csv("prices.csv", index=False)
+    prices_df.to_csv("prices-{}-{}.csv".format(sys.argv[1], sys.argv[2]), index=False)
 
 
 if __name__ == "__main__":
-    blend_data = get_blend_info("wti", "weekly")
+    blend_data = get_blend_info(sys.argv[1], sys.argv[2])
     
     save_to_csv_data(blend_data)
