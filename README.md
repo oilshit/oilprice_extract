@@ -26,4 +26,4 @@ In case of getting **monthly** prices in **WTI** (West Texas Intermediate), you 
 python3 main.py wti montly
 ```
 
-**Result**: the CSV file with filename **prices-wti-monthly.csv** will be appeared once the script was run.
+**Result**: the CSV file with filename **prices-wti-monthly.csv** will be appeared once the script was run. In case of getting other prices data, you can view the blend list via `http://localhost:3000/blend-list` in browser.
