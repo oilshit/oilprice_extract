@@ -8,8 +8,6 @@ This project uses [oilprice-api](https://github.com/oilshit/oilprice-api) initia
 
 ## Requirements
 - Python 3
-- Node.js, used to activate **oilprice-api** server (you can download it [here](https://nodejs.org/en/))
-- [oilprice-api](https://github.com/oilshit/oilprice-api)
 
 ## Project Setup
 You have to start the **oilprice-api** server as documented in [oilprice-api repository](https://github.com/oilshit/oilprice-api) before using this project.
@@ -22,7 +20,7 @@ In your console (**Terminal** on Linux and MacOS, **WSL console** on Windows), j
 python3 main.py <blend> <period>
 ```
 
-with `blend` and `period` arguments can be search in http://localhost:3000/blend-list.
+with `blend` and `period` arguments can be search in https://oilprice-api.herokuapp.com/blend-list.
 
 ### Example
 
@@ -32,4 +30,4 @@ In case of getting **monthly** prices in **WTI** (West Texas Intermediate), you 
 python3 main.py wti montly
 ```
 
-**Result**: the CSV file with filename **prices-wti-monthly.csv** will be appeared once the script was run. In case of getting other prices data, you can view the blend list via `http://localhost:3000/blend-list` in browser.
+**Result**: the CSV file with filename **prices-wti-monthly.csv** will be appeared once the script was run. In case of getting other prices data, you can view the blend list via `https://oilprice-api.herokuapp.com/blend-list` in browser.

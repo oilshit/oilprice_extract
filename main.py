@@ -11,7 +11,7 @@ def get_blend_info(blend, period):
     """
 
     # read oil anda gas price based on oilprice-api
-    blend_url = requests.get("http://localhost:3000/prices/{}/{}".format(blend, period))
+    blend_url = requests.get("https://oilprice-api.herokuapp.com/prices/{}/{}".format(blend, period))
     blend_info = json.loads(blend_url.text)
 
     # testing data  
