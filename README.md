@@ -1,5 +1,8 @@
 # oilprice-extract
 
+[Overview](#overview) | [Requirements](#requirements) | [Project Setup](#project-setup)
+ | [How to use](#how-to-use) 
+
 ## Overview
 This project uses [oilprice-api](https://github.com/oilshit/oilprice-api) initiated by [oilshit](https://github.com/oilshit) to extract oil and gas prices data into tables.
 
@@ -8,8 +11,11 @@ This project uses [oilprice-api](https://github.com/oilshit/oilprice-api) initia
 - Node.js, used to activate **oilprice-api** server (you can download it [here](https://nodejs.org/en/))
 - [oilprice-api](https://github.com/oilshit/oilprice-api)
 
-## How to use
+## Project Setup
+You have to start the **oilprice-api** server as documented in [oilprice-api repository](https://github.com/oilshit/oilprice-api) before using this project.
 
+
+## How to use
 In your console (**Terminal** on Linux and MacOS, **WSL console** on Windows), just type:
 
 ```bash
