@@ -48,7 +48,7 @@ def save_to_csv_data(data):
 
     prices_df = pd.DataFrame(data)
     prices_df.columns = field_name
-    prices_df.to_csv("prices-{}-{}.csv".format(sys.argv[1], sys.argv[2]), index=False)
+    prices_df.to_csv("prices-{}-{}-{}.csv".format(sys.argv[1], sys.argv[2], datetime.datetime.now().strftime("%s")), index=False)
 
 
 if __name__ == "__main__":
