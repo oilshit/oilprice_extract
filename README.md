@@ -1,19 +1,24 @@
 # oilprice-extract
 
 [Overview](#overview) | [Requirements](#requirements) | [Project Setup](#project-setup)
- | [How to use](#how-to-use) 
+| [How to use](#how-to-use)
 
 ## Overview
+
 This project uses [oilprice-api](https://github.com/oilshit/oilprice-api) initiated by [oilshit](https://github.com/oilshit) to extract oil and gas prices data into tables.
 
 ## Requirements
+
 - Python 3
 
 ## Project Setup
+
 You have to start the **oilprice-api** server as documented in [oilprice-api repository](https://github.com/oilshit/oilprice-api) before using this project.
 
+> Or you can use the live projects on https://oilprice-api.herokuapp.com/ instead.
 
 ## How to use
+
 In your console (**Terminal** on Linux and MacOS, **WSL console** on Windows), just type:
 
 ```bash
